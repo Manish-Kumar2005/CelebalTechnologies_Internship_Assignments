@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-#  Corrected path: assuming classifier.pkl is in the same folder
 with open("classifier.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
